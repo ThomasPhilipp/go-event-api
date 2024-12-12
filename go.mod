@@ -1,4 +1,4 @@
-module zwickit.com/go-event-api
+module github.com/ThomasPhilipp/go-event-api
 
 go 1.23.4
 

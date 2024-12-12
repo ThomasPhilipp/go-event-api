@@ -34,8 +34,12 @@ DELETE /events/<id>/register (auth required)
 * Gin: a HTTP web framework
 
 ## Tools
-* REST Client for Viusal Studio Code(https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
 
+### REST Client for Viusal Studio Code
+This VSCode extension (https://marketplace.visualstudio.com/items?itemName=humao.rest-client) makes testing an API very easy. All files are placed under the `api-test` folder.
+
+### SQLite3
+The SQLite3 project creates on the fly the `api.db` file.
 
 ## Project Setup
 
@@ -44,5 +48,6 @@ DELETE /events/<id>/register (auth required)
 * Create project: $ go mod init zwickit.com/go-event-api
 * Install packages:
  * $ go get -u github.com/gin-gonic/gin
+ * $ go get -u github.com/mattn/go-sqlite3
 
 
