@@ -1,0 +1,9 @@
+POST http://localhost:8080/login
+# Headers
+Content-Type: application/json
+
+# Data
+{
+    "email": "test@example.com",
+    "password": "test123"
+}
