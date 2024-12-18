@@ -1,0 +1,14 @@
+PUT http://localhost:8080/events/4
+# Headers
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzM0NTU1MDUwLCJ1c2VySWQiOjJ9.RaiP4bIxHwdllSly5Y7Y1JB-UG9r2F7z4zrDb6J_B94
+
+# Data
+{
+    "ID": 4,
+    "Name": "X-mas 2",
+    "Description": "X-mas in Vienna",
+    "Location": "Vienna",
+    "DateTime": "2025-01-01T00:00:00Z",
+    "UserID": 2
+  }
