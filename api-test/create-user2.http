@@ -1,0 +1,9 @@
+POST http://localhost:8080/signup
+# Headers
+Content-Type: application/json
+
+# Data
+{
+    "email": "test2@example.com",
+    "password": "test123"
+}

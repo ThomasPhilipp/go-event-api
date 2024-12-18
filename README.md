@@ -33,6 +33,7 @@ DELETE /events/<id>/register (auth required)
 ## Libraries
 * Gin: a HTTP web framework
 * bcrypt
+* jwt
 
 ## Tools
 
@@ -51,5 +52,6 @@ The SQLite3 project creates on the fly the `api.db` file.
  * $ go get -u github.com/gin-gonic/gin
  * $ go get -u github.com/mattn/go-sqlite3
  * $ go get -u golang.org/x/crypto
+ * $ go get -u github.com/golang-jwt/jwt
 
 
