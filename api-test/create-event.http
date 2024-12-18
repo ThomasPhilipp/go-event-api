@@ -1,12 +1,12 @@
 POST http://localhost:8080/events
 # Headers
 Content-Type: application/json
-Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzM0NTUzMTMyLCJ1c2VySWQiOjB9.K7gzLd3B8gIVIPdvEBKx57_JtBuj4Jjx3EXEXOwaMS4
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZXhhbXBsZS5jb20iLCJleHAiOjE3MzQ1NTY2OTYsInVzZXJJZCI6MX0.Uk0JgdNmojH0tMERM5jreLFeKhC3cb0ZVP-2mXoxULc
 
 # Data
 {
     "name": "Tomorrowland (Updated)",
     "description": "A big event in Belgium",
     "location": "Belgium Hills",
-    "dateTime": "2025-01-01T221:30:00.000Z"
+    "dateTime": "2025-01-01T21:30:00.000Z"
 }

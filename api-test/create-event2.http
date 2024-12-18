@@ -8,5 +8,5 @@ Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QyQGV4YW1w
     "name": "X-mas 2",
     "description": "X-mas in Vienna",
     "location": "Vienna",
-    "dateTime": "2024-12-24T218:00:00.000Z"
+    "dateTime": "2024-12-24T18:00:00.000Z"
 }
